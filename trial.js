@@ -16,10 +16,7 @@ var fetchpic = function(penguin)
     .append("tr")
     row.append ("img")
     .attr("src", function(d)
-          {return d.picture})
-    row.append("td")
-    .text(function(d){})
-    return row }
+          {return d.picture})}
 var anygrade = function(subject)
     {
         return subject.grade;
